@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Sharing run</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+ 
+   <body>
+
+    <div class="banner">
+    	<div class="container">
+    		<h1>Share your passion</h1>
+            <h2>Let's meet people and beautiful paths</h2>
+             <a href="#apply-section" class="btn-blue">Start now</a>  <!--le # se réfère à un élément de la page, à une identité, ici on veut que renvoie au tpf-->
+        </div>
+
+    </div>
+
+
+<!-- on crée une id et on met dedans le typeform afin que le lien renvoie à cela-->
+
+    <div id="apply-section">
+
+
+<!-- Insérer un typeform : 
+	-aller sur typeform et créer ses questions ouvertes ou non
+	-puis accès à link ou à embed (link permet de partager son lien donc de partager son typeform ; ici c'est embed qui intéresse)
+	-enfin copier le code et le coller où on veut
+    -personnaliser couleurs sur typeform en utilisant celles du site pour que soit cohérant
+     -->
+
+
+
+ 
+       <div  class="typeform-widget" data-url="https://gauthiermiralles.typeform.com/to/ylzNYr" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=ylzNYr&utm_source=typeform.com-14813666-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+     </div>
+
+
+
+
+
+
+
+
+   	<div class="container">
+    
+      <!-- Pour coder bouton, avatar et texte présentation, ici sert à rien
+     <h2>1. Container</h2>
+     <p>
+     	That's for you the occasion to meet people that share a passion with you and running together. You can share the trajects you prefer and find other that people posted so discover new ones. 
+
+     </p>
+     <h2>2. Avatar</h2>
+     <img class="Avatar" src=images/avatar.jpeg alt="logo running">
+
+     <h2>3. Button</h2>
+     <a href="#" class="btn-blue">Submit</a> 
+     -->
+
+     <h2>Begin the adventure</h2>
+
+
+<!-- Ici, création de card en flexbox ; pour changer la taille des items dans la box, utiliser flex-basis:200px par ex, mais peuvent dépasser de la box
+	Si le dernier dépasse de la box, utiliser flex-wrap : wrap et ainsi, il ira sur la ligne du dessous 
+Pour mettre tout dans une flex box facile, faire "display : flex" dans une div
+-->
+
+     
+
+
+<!-- ICI, ON MET 3 CARDS SEPARES 
+     <div class="card">
+    	 <img src="images/running_trajects.jpg" alt="My trajects">
+    	 <h3>My trajects</h3>
+    	 <a href="#" class="btn-blue">Share</a>
+     </div>
+
+      <div class="card">
+    	 <img src="images/group.jpg" alt="Find a group in your city" style="width:150px">
+    	 <h3>Find a group in your city</h3>
+    	 <a href="#" class="btn-blue">Find</a>
+     </div>
+
+
+      <div class="card">
+    	 <img src="images/trajects.jpeg" alt="See trajects in your city" style="width:150px">
+    	 <h3>See trajects in your city</h3>
+    	 <a href="#" class="btn-blue">See</a>
+     </div>
+    
+-->
+
+
+<!-- Mais plutôt mettre les 3 cartes dans une grid comme cela: -->
+
+    <div class="cards">
+    	<div class="card">
+    	 <img src="images/running_trajects.jpg" alt="My paths">
+    	 <h3>My paths</h3>
+    	 <a href="#" class="btn-blue">Share</a>
+     </div>
+
+      <div class="card">
+    	 <img src="images/group.jpg" alt="Find a group in your city" style="width:150px">
+    	 <h3>Find a group in your city</h3>
+    	 <a href="#" class="btn-blue">Find</a>
+     </div>
+
+
+      <div class="card">
+    	 <img src="images/trajects.jpeg" alt="Find paths in your city" style="width:150px">
+    	 <h3>Find paths in your city</h3>
+    	 <a href="#" class="btn-blue">Find</a>
+     </div>
+    
+    
+    </div>
+
+
+
+
+
+
+    </div>
+   </body>
+
+
+</html>
+
+
+
